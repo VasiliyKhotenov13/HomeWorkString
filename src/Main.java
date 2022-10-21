@@ -22,6 +22,20 @@ public class Main {
             System.out.println("Неудача!");
         }
 
+        System.out.println("ЗАДАНИЕ 1");
+        String firstName = "Семён";
+        String middleName = "Семёнович";
+        String lastName = "Иванов";
+        String fullName = lastName + ' ' + firstName + ' ' + middleName;
+        System.out.println("ФИО сотрудника - " + fullName);
+
+        System.out.println("ЗАДАНИЕ 2");
+        String fullName1 = fullName.toUpperCase();
+        System.out.println("Данные ФИО сотрудника для запонения отчета - " + fullName1);
+
+        System.out.println("ЗАДАНИЕ 3");
+        fullName = fullName.replace("ё", "е");
+        System.out.println("Данные ФИО сотрудника - " + fullName);
 
     }
 }
